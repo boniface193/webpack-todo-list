@@ -52,11 +52,11 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Awesome-book] <a name="about-project"></a>
+# 📖 [Todo-list] <a name="about-project"></a>
 
 > it contains my work experience, my contants, projects i have ever build
 
-**[Awesome-book]**
+**[Todo-list]**
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -81,8 +81,7 @@ html
 
 > preserve data in the browser.
 
-- When the user changes the content of any input field, the data is saved to the local storage
-- When the user loads the page, if there is any data in the local storage the will be shown with this data.
+- it shows all the list of todo's
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -94,9 +93,9 @@ html
 
 To get a local copy up and running, follow these steps.
 
-git clone https://github.com/boniface193/book-es6.git
+git clone https://github.com/boniface193/webpack-todo-list.git
 
-cd book-es6
+cd webpack-todo-list
 
 npm install
 
