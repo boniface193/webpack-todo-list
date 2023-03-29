@@ -15,10 +15,10 @@ const showList = () => {
 
   todos.forEach((listItem) => {
     viewList.innerHTML += `
-        <li class="d-flex py-4 align-center justify-between h-rule">
+        <li class="py-4">
           <input type="checkbox">
-          <div>${listItem.description}</div>
-          <i class="fa-solid fa-ellipsis-vertical"></i>
+          <span>${listItem.description}</span>
+          <i class="fa-solid fa-ellipsis-vertical d-flex justify-end float-right"></i>
         </li>`;
   });
 };

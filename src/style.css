@@ -15,8 +15,6 @@ body {
 .card {
   box-shadow: 1px 1px 70px rgba(143, 143, 143, 0.4);
   width: 50%;
-
-  /* padding: 15px; */
   margin: auto;
 }
 
@@ -60,6 +58,12 @@ input[type="text"] {
   font-style: italic;
   height: 50px;
   outline: none;
+}
+
+input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  margin-right: 20px;
 }
 
 ul {
