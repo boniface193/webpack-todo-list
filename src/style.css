@@ -1,0 +1,13 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #9b9ca70d;
+  height: 100vh;
+  font-size: 18px;
+}
+
+.card {
+  color: blue;
+}
