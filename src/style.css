@@ -2,12 +2,105 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: sans-serif;
+  font-family: system-ui, 'Open Sans', 'Helvetica Neue', sans-serif;
   background-color: #9b9ca70d;
   height: 100vh;
-  font-size: 18px;
+  font-size: 16px;
+}
+
+.container {
+  padding: 70px;
 }
 
 .card {
-  color: blue;
+  box-shadow: 1px 1px 70px rgba(143, 143, 143, 0.4);
+  width: 50%;
+  margin: auto;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-end {
+  justify-content: end;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.float-right {
+  float: right;
+}
+
+p {
+  opacity: 0.7;
+}
+
+input[type="text"] {
+  border: none;
+  width: 100%;
+  background-color: inherit;
+  line-height: 50px;
+  font-style: italic;
+  height: 50px;
+  outline: none;
+}
+
+input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  margin-right: 20px;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+.h-rule {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.px-4 {
+  padding: 0 16px;
+}
+
+.py-4 {
+  padding: 16px 0;
+}
+
+.fa-solid {
+  font-size: 14px;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.clear-text {
+  font-weight: 500;
+  opacity: 0.3;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 100%;
+  }
 }
