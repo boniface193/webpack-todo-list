@@ -35,6 +35,14 @@ class Operation {
       });
     });
   }
+
+  static completedTodo(completed) {
+    completed.forEach((completedItem) => {
+      completedItem.addEventListener('change', () => {
+        completedItem.parentNode.classList.toggle('line-through');
+      });
+    });
+  }
 }
 
 export default Operation;
