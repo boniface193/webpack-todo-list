@@ -20,12 +20,14 @@
         <i class="fa-solid fa-arrows-rotate px-4"></i>
       </div>
 
-      <div class="d-flex align-center h-rule">
-        <input type="text" placeholder="Add to your list..." class="px-4">
-        <i class="fa-solid fa-arrow-turn-up px-4"></i>
-      </div>
+      <form class="d-flex align-center h-rule" id="addItem">
+        <input type="text" placeholder="Add to your list..." class="px-4 italic-text" name="description">
+        <button type="submit">
+          <i class="fa-solid fa-arrow-turn-up px-4"></i>
+        </button>
+      </form>
 
-      <ul class="px-4 text-left" id="viewList"></ul>
+      <ul class="text-left" id="viewList"></ul>
 
       <div class="text-center clear-text py-4">
         <span>Clear all completed</span>

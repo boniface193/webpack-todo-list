@@ -1,27 +1,5 @@
-# Awesome-book
+# Todo-App
 <a name="readme-top"></a>
-
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-After you're finished please remove all the comments and instructions!
--->
 
 <div align="center">
 
@@ -54,15 +32,13 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [Todo-list] <a name="about-project"></a>
 
-> it contains my work experience, my contants, projects i have ever build
+> To-do list" is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete.
 
 **[Todo-list]**
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
-
-> Describe the tech stack and include only the relevant sections that apply to your project.
 
 <details>
 html
@@ -79,17 +55,18 @@ html
 <!-- Features -->
 ### Key Features <a name="key-features"></a>
 
-> preserve data in the browser.
+- Adding a new item.
+- Removing a selected item.
+- Marking a selected item as complete.
+- Removing all items marked as complete at once.
+- Reordering a selected item (as drag-and-drop) [as an additional feature].
 
-- it shows all the list of todo's
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
-> Describe how a new developer could make use of your project.
 
 To get a local copy up and running, follow these steps.
 
@@ -105,26 +82,9 @@ In order to run this project you need:
 
 Node js
 
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
-
 ### Setup
 
 Clone this repository to your desired folder:
-
-<!--
-Example commands:
-
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
---->
 
 ### Install
 

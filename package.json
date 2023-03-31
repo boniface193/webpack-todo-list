@@ -6,6 +6,7 @@
   "scripts": {
     "build": "webpack",
     "start": "webpack serve --open",
+    "lint:js": "npx eslint . --f",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
