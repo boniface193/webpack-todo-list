@@ -22,6 +22,10 @@ body {
   display: flex;
 }
 
+.d-none {
+  display: none;
+}
+
 .justify-between {
   justify-content: space-between;
 }
@@ -42,28 +46,32 @@ body {
   text-align: left;
 }
 
-.float-right {
-  float: right;
-}
-
 p {
   opacity: 0.7;
 }
 
 input[type="text"] {
   border: none;
-  width: 100%;
+  width: 80%;
   background-color: inherit;
   line-height: 50px;
-  font-style: italic;
   height: 50px;
   outline: none;
+}
+
+.italic-text {
+  font-style: italic;
 }
 
 input[type="checkbox"] {
   width: 18px;
   height: 18px;
   margin-right: 20px;
+}
+
+button {
+  border: none;
+  background-color: inherit;
 }
 
 ul {
@@ -83,6 +91,18 @@ ul li {
   padding: 0 16px;
 }
 
+.pa-4 {
+  padding: 16px;
+}
+
+.pa-3 {
+  padding: 8px;
+}
+
+.py-3 {
+  padding: 8px 0;
+}
+
 .py-4 {
   padding: 16px 0;
 }
@@ -97,6 +117,14 @@ ul li {
   font-weight: 500;
   opacity: 0.3;
   cursor: pointer;
+}
+
+.edited-class {
+  background-color: #ffffe0;
+}
+
+.completed:checked {
+  text-decoration: line-through;
 }
 
 @media (max-width: 768px) {
