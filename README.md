@@ -117,6 +117,14 @@ Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank Microverse staff for their support
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- LICENSE -->
 
