@@ -43,7 +43,7 @@ class Operation {
       if (storage[i].completed) {
         completedItem.parentNode.classList.toggle('line-through');
       }
-      completedItem.addEventListener('click', () => {
+      completedItem.addEventListener('change', () => {
         const storage = JSON.parse(localStorage.getItem('payLoad'));
         const todo = {
           description: storage[i].description,
