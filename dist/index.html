@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Webpack</title>
+<script defer src="runtime.bundle.js"></script><script defer src="index.bundle.js"></script></head>
+
+<body>
+  <section class="container">
+
+    <aside class="card">
+      <div class="d-flex justify-between align-center h-rule">
+        <p class="px-4">Today's To Do </p>
+        <i class="fa-solid fa-arrows-rotate px-4"></i>
+      </div>
+
+      <form class="d-flex align-center h-rule" id="addItem">
+        <input type="text" placeholder="Add to your list..." class="px-4 italic-text" name="description">
+        <button type="submit">
+          <i class="fa-solid fa-arrow-turn-up px-4"></i>
+        </button>
+      </form>
+
+      <ul class="text-left" id="viewList"></ul>
+
+      <div class="text-center clear-text py-4">
+        <span>Clear all completed</span>
+      </div>
+
+    </aside>
+  </section>
+</body>
+
+</html>
