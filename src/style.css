@@ -131,4 +131,8 @@ ul li {
   .card {
     width: 100%;
   }
+
+  .container {
+    padding: 20px;
+  }
 }
